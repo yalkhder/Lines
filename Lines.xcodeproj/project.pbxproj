@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B8EA2D1852656000F7ACAD /* LICachedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8EA2C1852656000F7ACAD /* LICachedView.m */; };
 		C2CAE9F9184D9E150078849D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAE9F8184D9E150078849D /* Foundation.framework */; };
 		C2CAE9FB184D9E150078849D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAE9FA184D9E150078849D /* CoreGraphics.framework */; };
 		C2CAE9FD184D9E150078849D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAE9FC184D9E150078849D /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		C2CAEA14184D9E150078849D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAE9FC184D9E150078849D /* UIKit.framework */; };
 		C2CAEA1C184D9E150078849D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2CAEA1A184D9E150078849D /* InfoPlist.strings */; };
 		C2CAEA1E184D9E150078849D /* LinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA1D184D9E150078849D /* LinesTests.m */; };
+		C2CAEA29184D9E710078849D /* LIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA28184D9E710078849D /* LIMainViewController.m */; };
+		C2CAEA2C184DA4930078849D /* LILinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA2B184DA4930078849D /* LILinearInterpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2B8EA2B1852656000F7ACAD /* LICachedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LICachedView.h; sourceTree = "<group>"; };
+		C2B8EA2C1852656000F7ACAD /* LICachedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LICachedView.m; sourceTree = "<group>"; };
 		C2CAE9F5184D9E150078849D /* Lines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CAE9F8184D9E150078849D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2CAE9FA184D9E150078849D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,10 @@
 		C2CAEA19184D9E150078849D /* LinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinesTests-Info.plist"; sourceTree = "<group>"; };
 		C2CAEA1B184D9E150078849D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2CAEA1D184D9E150078849D /* LinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinesTests.m; sourceTree = "<group>"; };
+		C2CAEA27184D9E710078849D /* LIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIMainViewController.h; sourceTree = "<group>"; };
+		C2CAEA28184D9E710078849D /* LIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIMainViewController.m; sourceTree = "<group>"; };
+		C2CAEA2A184DA4930078849D /* LILinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LILinearInterpView.h; sourceTree = "<group>"; };
+		C2CAEA2B184DA4930078849D /* LILinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LILinearInterpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				C2CAEA07184D9E150078849D /* LIAppDelegate.h */,
 				C2CAEA08184D9E150078849D /* LIAppDelegate.m */,
+				C2CAEA27184D9E710078849D /* LIMainViewController.h */,
+				C2CAEA28184D9E710078849D /* LIMainViewController.m */,
+				C2CAEA2A184DA4930078849D /* LILinearInterpView.h */,
+				C2CAEA2B184DA4930078849D /* LILinearInterpView.m */,
+				C2B8EA2B1852656000F7ACAD /* LICachedView.h */,
+				C2B8EA2C1852656000F7ACAD /* LICachedView.m */,
 				C2CAEA0A184D9E150078849D /* Images.xcassets */,
 				C2CAE9FF184D9E150078849D /* Supporting Files */,
 			);
@@ -192,6 +207,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Yasser Al-Khder";
 				TargetAttributes = {
+					C2CAE9F4184D9E150078849D = {
+						DevelopmentTeam = R24SKJDVPS;
+					};
 					C2CAEA0F184D9E150078849D = {
 						TestTargetID = C2CAE9F4184D9E150078849D;
 					};
@@ -240,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CAEA2C184DA4930078849D /* LILinearInterpView.m in Sources */,
+				C2CAEA29184D9E710078849D /* LIMainViewController.m in Sources */,
 				C2CAEA05184D9E150078849D /* main.m in Sources */,
+				C2B8EA2D1852656000F7ACAD /* LICachedView.m in Sources */,
 				C2CAEA09184D9E150078849D /* LIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,10 +383,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lines/Lines-Prefix.pch";
 				INFOPLIST_FILE = "Lines/Lines-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,10 +399,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lines/Lines-Prefix.pch";
 				INFOPLIST_FILE = "Lines/Lines-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,6 +471,7 @@
 				C2CAEA23184D9E150078849D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2CAEA24184D9E150078849D /* Build configuration list for PBXNativeTarget "LinesTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +480,7 @@
 				C2CAEA26184D9E150078849D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
