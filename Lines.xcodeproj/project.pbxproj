@@ -22,6 +22,7 @@
 		C2CAEA1E184D9E150078849D /* LinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA1D184D9E150078849D /* LinesTests.m */; };
 		C2CAEA29184D9E710078849D /* LIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA28184D9E710078849D /* LIMainViewController.m */; };
 		C2CAEA2C184DA4930078849D /* LILinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAEA2B184DA4930078849D /* LILinearInterpView.m */; };
+		C2FDE8A5188A07A8008E3754 /* LISmoothedBIView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDE8A4188A07A8008E3754 /* LISmoothedBIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C2CAEA28184D9E710078849D /* LIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIMainViewController.m; sourceTree = "<group>"; };
 		C2CAEA2A184DA4930078849D /* LILinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LILinearInterpView.h; sourceTree = "<group>"; };
 		C2CAEA2B184DA4930078849D /* LILinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LILinearInterpView.m; sourceTree = "<group>"; };
+		C2FDE8A3188A07A8008E3754 /* LISmoothedBIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LISmoothedBIView.h; sourceTree = "<group>"; };
+		C2FDE8A4188A07A8008E3754 /* LISmoothedBIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LISmoothedBIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				C2CAEA2B184DA4930078849D /* LILinearInterpView.m */,
 				C2B8EA2B1852656000F7ACAD /* LICachedView.h */,
 				C2B8EA2C1852656000F7ACAD /* LICachedView.m */,
+				C2FDE8A3188A07A8008E3754 /* LISmoothedBIView.h */,
+				C2FDE8A4188A07A8008E3754 /* LISmoothedBIView.m */,
 				C2CAEA0A184D9E150078849D /* Images.xcassets */,
 				C2CAE9FF184D9E150078849D /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 				C2CAEA2C184DA4930078849D /* LILinearInterpView.m in Sources */,
 				C2CAEA29184D9E710078849D /* LIMainViewController.m in Sources */,
 				C2CAEA05184D9E150078849D /* main.m in Sources */,
+				C2FDE8A5188A07A8008E3754 /* LISmoothedBIView.m in Sources */,
 				C2B8EA2D1852656000F7ACAD /* LICachedView.m in Sources */,
 				C2CAEA09184D9E150078849D /* LIAppDelegate.m in Sources */,
 			);

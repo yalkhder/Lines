@@ -56,7 +56,6 @@
     CGPoint p = [touch locationInView:self];
     [self.path addLineToPoint:p];
     if (self.counter >= 200) {
-        NSLog(@"BAM!!");
         [self drawBitmap];
         [self.path removeAllPoints];
         [self.path moveToPoint:p];

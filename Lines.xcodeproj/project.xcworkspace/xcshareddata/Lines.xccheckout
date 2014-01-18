@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00936781-6FA8-4D65-A1B7-0BC486EE13AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lines</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC08B527-CF35-4B7A-9CB2-B35A057B6AA6</key>
+		<string>https://github.com/yyalkhde/Lines.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lines.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC08B527-CF35-4B7A-9CB2-B35A057B6AA6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yyalkhde/Lines.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC08B527-CF35-4B7A-9CB2-B35A057B6AA6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC08B527-CF35-4B7A-9CB2-B35A057B6AA6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lines</string>
+		</dict>
+	</array>
+</dict>
+</plist>

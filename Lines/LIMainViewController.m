@@ -9,6 +9,7 @@
 #import "LIMainViewController.h"
 #import "LILinearInterpView.h"
 #import "LICachedView.h"
+#import "LISmoothedBIView.h"
 
 @interface LIMainViewController ()
 
@@ -21,7 +22,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.view = [[LICachedView alloc] init];
+        self.view = [[LISmoothedBIView alloc] init];
     }
     return self;
 }
