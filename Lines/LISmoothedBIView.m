@@ -97,4 +97,15 @@
     self.performanceCounter = 0;
 }
 
+- (void)clearView
+{
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0.0);
+    UIBezierPath *clearpath = [UIBezierPath bezierPathWithRect:self.bounds];
+    [[UIColor whiteColor] setFill];
+    [clearpath fill];
+    self.incrementalImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    [self setNeedsDisplay];
+}
+
 @end

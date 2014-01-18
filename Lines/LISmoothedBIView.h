@@ -10,4 +10,6 @@
 
 @interface LISmoothedBIView : UIView
 
+- (void)clearView;
+
 @end
