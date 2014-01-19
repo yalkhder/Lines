@@ -34,7 +34,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blueColor];
     
     self.smoothedBIView = [[LISmoothedBIView alloc] initWithFrame:self.view.frame];
     self.smoothedBIView.autoresizesSubviews = YES;
